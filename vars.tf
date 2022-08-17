@@ -1,1 +1,1 @@
-variable "keys.json"{}
+variable "creds"{}
