@@ -1,8 +1,8 @@
 provider "google" {
   credentials = var.creds
   project     = "DevOps"
-  zone 	 = "us-east4-c"
-  region      = "us-east4"
+  zone 	 = "us-west2-a"
+  region      = "us-west2"
 }
 
 resource "google_compute_instance" "vm_instance" {
