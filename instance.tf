@@ -1,6 +1,6 @@
 provider "google" {
   credentials = var.creds
-  project     = "devops-358305"
+  project     = "stately-magpie-355709"
   zone 	 = "us-west2-a"
   region      = "us-west2"
 }
